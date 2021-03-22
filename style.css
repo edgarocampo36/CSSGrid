@@ -1,0 +1,22 @@
+.grid-container {
+  border: 4px dotted blue;
+  display: grid;
+  justify-content: end;
+  width: 500px;
+  height: 500px;
+}
+
+.container {
+  background: papayawhip;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+}
+
+.item {
+  background-color: brown;
+  border: 2px solid black;
+}
